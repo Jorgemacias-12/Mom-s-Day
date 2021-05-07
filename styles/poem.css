@@ -1,0 +1,148 @@
+* {
+    outline: none;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    display: flex;
+    place-content: center;
+    width: 100vw;
+    height: auto;
+    background-image: url("../resources/background.jpg");
+    scroll-behavior: smooth;
+}
+
+.app {
+    margin-top: 20px;
+    background-color: #fefefe;
+    width: 80%;
+    height: 1000px;
+}
+
+.app-header__nav {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 60px;
+    background-color: #E0115F;
+}
+
+.app-header__nav>.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    height: 100%;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.nav-list>.list-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.list-item>.item-link {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.list-item>.item-link:hover {
+    background-color: #EC5578;
+    padding: 10px;
+}
+
+.app-header__nav>.nav-title {
+    display: flex;
+    place-items: center;
+    width: 30%;
+}
+
+.nav-title>.title-page {
+    color: white;
+    margin-left: 12px;
+}
+
+.poem-content {
+    display: grid;
+    width: 100%;
+    height: 900px;
+}
+
+.poem-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+    height: 100%;
+}
+
+.poem {
+    margin-top: 20px;
+    width: 550px;
+    background-color: #282828;
+    border: 1px solid #ddd;
+    height: 400px;
+}
+
+.poem-number {
+    position: absolute;
+    margin: 10px;
+    background-color: #FF3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.poem-body {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    height: 100%;
+}
+
+.poem-title {
+    text-align: center;
+}
+
+.poem-grid-text {
+    display: grid;
+    width: 350px;
+    height: 300px;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.poem-text {
+    width: 80%;
+    height: 130PX;
+    text-align: justify;
+}
+
+.white {
+    color: white;
+}
+
+.poem-author {
+    font-size: 14px;
+}
+
+.poem-link {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.poem-link:hover {
+    color: #ce120a;
+    text-decoration: underline
+}
