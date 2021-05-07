@@ -22,10 +22,10 @@ const greetUsers = () => {
 }
 
 const imagesToDisplay = [
-    "../resources/1.jpg",
-    "../resources/2.jpg",
-    "../resources/3.jpg",
-    "../resources/4.jpg"
+    "resources/1.jpg",
+    "resources/2.jpg",
+    "resources/3.jpg",
+    "resources/4.jpg"
 ];
 
 const prevImage = () => {
@@ -44,7 +44,7 @@ const nextImage = () => {
 
 window.onload = () => {
     greetUsers();
-    imageElement.src = "../resources/1.jpg";
+    imageElement.src = "resources/1.jpg";
     btn_next.addEventListener("click", () => {
         index++;
         nextImage();
