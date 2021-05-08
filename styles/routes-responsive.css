@@ -11,12 +11,26 @@
 }
 
 @media screen and (max-width: 767px) {
-    .app-header__nav>.nav-title {
+    .app {
         width: 100%;
+        margin: 0px;
     }
-    .app-header__nav>.nav-list {
+    .app-header__nav {
+        height: 150px;
+        flex-flow: column;
+    }
+    .app-header__nav>.nav-title {
+        padding: 0px;
+        height: 50px;
         width: 100%;
         justify-content: center;
+        align-items: center;
+    }
+    .app-header__nav>.nav-list {
+        padding: 0px;
+        height: 150px;
+        width: 100%;
+        justify-content: center; 
         align-items: center;
     }
 }
@@ -34,7 +48,7 @@
     .app-header__nav>.nav-title {
         width: 100%;
         height: 50px;
-        justify-content: center; 
+        justify-content: center;
         align-items: center;
     }
     .app-header__nav>.nav-list {
@@ -45,7 +59,7 @@
     .list-item {
         width: 80%;
         height: 40px;
-        justify-content: center; 
+        justify-content: center;
         align-items: center;
         display: flex;
     }
