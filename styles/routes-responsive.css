@@ -1,3 +1,7 @@
+.app {
+    height: auto;
+}
+
 @media screen and (max-width: 991px) {
     .app {
         width: 90%;
