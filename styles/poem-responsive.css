@@ -1,0 +1,26 @@
+.poem-content {
+    height: auto;
+}
+
+.poem-container {
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+}
+
+@media screen and (width:767px) {
+    .poem-grid-text {
+        width: 440px;
+    }
+}
+
+.poem {
+    width: 400px;
+}
+
+.poem-grid-text {
+    margin-top: 30px;
+}
+
+.poem-author {
+    margin-top: 20px;
+}
