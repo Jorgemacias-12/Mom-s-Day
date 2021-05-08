@@ -1,0 +1,20 @@
+@media screen and (max-width: 991px) {
+    .app-header__nav>.nav-title {
+        width: 50%;
+    }
+    .app-header__nav>.nav-list {
+        width: 50%;
+    }
+    .title-page {
+        font-size: 20px;
+    }
+    .app {
+        height: 1850px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 479px) {}
