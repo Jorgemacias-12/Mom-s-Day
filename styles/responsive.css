@@ -14,6 +14,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .app {
+        height: auto;
+    }
     .app-header__nav {
         align-items: center;
         flex-flow: column;
@@ -29,29 +32,6 @@
         height: 60px;
         padding: 0px;
     }
-    .app {
-        height: autopx;
-    }
-    .about {
-        place-items: center;
-        flex-flow: column;
-    }
-    .text-container {
-        margin-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 100%;
-    }
-    .carrousel {
-        width: 450px;
-        height: 320px;
-    }
-    .main-content {
-        height: auto;
-    }
-    .main-content>.content-table.content-table {
-        width: 80%;
-    }
 }
 
 @media screen and (max-width: 479px) {
@@ -59,17 +39,5 @@
         margin-top: 0px;
         width: 100%;
         height: auto;
-    }
-    .app-header__nav>.nav-list {
-        width: 100%;
-        justify-content: center; 
-        align-items: center;
-    }
-    .image {
-        margin: 0px;
-    }
-    .photos-carrousel {
-        margin-top: 0px;
-        flex-flow: column;
     }
 }
