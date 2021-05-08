@@ -1,0 +1,31 @@
+@media screen and (max-width: 991px) {
+    .app-article__content {
+        align-items: center;
+        flex-flow: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .song-text {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .content-song {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .song {
+        width: 350px;
+        height: 250px;
+    }
+    .song-video {
+        width: 350px;
+        height: 200px;
+    }
+}

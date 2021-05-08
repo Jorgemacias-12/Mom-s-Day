@@ -1,0 +1,24 @@
+@media screen and (max-width: 991px) {
+    .jokes-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .jokes-grid {
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        gap: 29px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .jokes-grid {
+        overflow: hidden;
+    }
+    .joke {
+        width: 80%;
+        height: 170px;
+    }
+}
