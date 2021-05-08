@@ -1,4 +1,38 @@
+.app {
+    height: auto;
+}
+
+.main-content{
+    height: auto;
+}
+.main-content>.content-table {
+    width: 80%;
+}
+
+@media screen and (max-width: 991px) {
+    .app-header__nav>.nav-title {
+        width: 60%;
+    }
+    .app-header__nav>.nav-list {
+        width: 40%;
+    }
+}
+
 @media screen and (max-width: 767px) {
+    .app {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .app-header__nav {
+        height: 150px;
+        flex-flow: column;
+    }
+    .app-header__nav>.nav-title {
+        width: 100%;
+        justify-content: center; 
+        align-items: center;
+        height: 100px;
+    }   
     .about {
         place-items: center;
         flex-flow: column;
