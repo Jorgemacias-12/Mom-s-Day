@@ -54,4 +54,22 @@
     }
 }
 
-@media screen and (max-width: 479px) {}
+@media screen and (max-width: 479px) {
+    .app {
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .app-header__nav>.nav-list {
+        width: 100%;
+        justify-content: center; 
+        align-items: center;
+    }
+    .image {
+        margin: 0px;
+    }
+    .photos-carrousel {
+        margin-top: 0px;
+        flex-flow: column;
+    }
+}
