@@ -14,7 +14,44 @@
 }
 
 @media screen and (max-width: 767px) {
-
+    .app-header__nav {
+        align-items: center;
+        flex-flow: column;
+        height: 120px;
+    }
+    .app-header__nav>.nav-title {
+        width: 100%;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .app-header__nav>.nav-list {
+        height: 60px;
+        padding: 0px;
+    }
+    .app {
+        height: autopx;
+    }
+    .about {
+        place-items: center;
+        flex-flow: column;
+    }
+    .text-container {
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .carrousel {
+        width: 450px;
+        height: 320px;
+    }
+    .main-content {
+        height: auto;
+    }
+    .main-content>.content-table.content-table {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 479px) {}
