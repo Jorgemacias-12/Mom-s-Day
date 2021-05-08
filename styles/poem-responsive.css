@@ -1,26 +1,60 @@
-.poem-content {
+.app {
     height: auto;
 }
 
-.poem-container {
-    grid-template-columns: repeat(1, 1fr);
-    height: auto;
-}
-
-@media screen and (width:767px) {
-    .poem-grid-text {
-        width: 440px;
+@media screen and (width:991px) {
+    .poem-content {
+        height: auto;
+    }
+    .poem-container {
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
     }
 }
 
-.poem {
-    width: 400px;
+@media screen and (width:767px) {
+    .poem-content {
+        height: auto;
+    }
+    .poem-grid-text {
+        width: 440px;
+    }
+    .poem {
+        width: 400px;
+    }
+    .poem-grid-text {
+        margin-top: 30px;
+    }
+    .poem-author {
+        margin-top: 20px;
+    }
+    .poem-container {
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
 }
 
-.poem-grid-text {
-    margin-top: 30px;
-}
-
-.poem-author {
-    margin-top: 20px;
+@media screen and (max-width:479px) {
+    .poem{
+        height: 500px;
+    }
+    .poem-body {
+        justify-content: center;
+    }
+    .poem-grid-text {
+        width: auto;
+    }
+    .poem-content {
+        height: auto;
+    }
+    .poem-container {
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
+    .poem {
+        width: 80%;
+    }
+    .poem-author {
+        margin-top: 10%;
+    }
 }
