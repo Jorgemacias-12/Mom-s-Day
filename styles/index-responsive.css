@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px) {
+    .about {
+        place-items: center;
+        flex-flow: column;
+    }
+    .text-container {
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .carrousel {
+        width: 450px;
+        height: 320px;
+    }
+    .main-content {
+        height: auto;
+    }
+    .main-content>.content-table.content-table {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .app-header__nav>.nav-list {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .image {
+        margin: 0px;
+    }
+    .photos-carrousel {
+        margin-top: 0px;
+        flex-flow: column;
+    }
+}
