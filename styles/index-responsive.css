@@ -10,6 +10,18 @@
     width: 80%;
 }
 
+@media screen and (max-width: 1280px) {
+    .app {
+        width: 90%;
+    }
+    .app-header__nav>.nav-title{
+        width: 40%;
+    }
+    .app-header__nav>.nav-list {
+        width: 60%;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .app-header__nav>.nav-title {
         width: 60%;
