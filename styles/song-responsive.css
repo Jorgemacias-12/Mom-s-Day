@@ -1,3 +1,12 @@
+@media screen and (max-width: 1280px) {
+    .content-song {
+        padding-right: 0px;
+    }
+    .song-text {
+        width: 95%;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .app-article__content {
         align-items: center;
